@@ -1,9 +1,8 @@
 {
   "name": "trance-leg",
-  "version": "0.0.2",
-  "description": "A very important module for working with rectangles",
+  "version": "1.0.0",
+  "description": "A very important library for working with rectangles.",
   "main": "index.js",
-  "dependencies": {},
   "devDependencies": {
     "babel-cli": "^6.11.4",
     "babel-preset-es2015": "^6.9.0",
@@ -11,10 +10,7 @@
     "mocha": "^2.5.3"
   },
   "scripts": {
-    "test": "mocha",
-    "lint": "eslint .",
-    "build": "babel src/rectangle.js index.js",
-    "prepublish": "npm run lint && npm test && npm run build"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -22,7 +18,7 @@
   },
   "keywords": [],
   "author": "Steve Kinney <hello@stevekinney.net> (http://stevekinney.net)",
-  "license": "MIT",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/stevekinney/trance-leg/issues"
   },

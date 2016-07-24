@@ -1,5 +1,7 @@
 # Trance Leg
 
+A very important library for working with rectangles.
+
 ## API
 
 Trance Leg takes four arguments: `x`, `y`, `width`, and `height`.
