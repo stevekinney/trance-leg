@@ -12,9 +12,9 @@
   },
   "scripts": {
     "test": "mocha",
-    "lint": "eslint",
+    "lint": "eslint .",
     "build": "babel src/rectangle.js index.js",
-    "prepublish": "npm run build"
+    "prepublish": "npm run lint && npm test && npm run build"
   },
   "repository": {
     "type": "git",
