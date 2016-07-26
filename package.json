@@ -1,6 +1,6 @@
 {
   "name": "trance-leg",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A very important library for working with rectangles.",
   "main": "index.js",
   "devDependencies": {
