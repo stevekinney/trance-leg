@@ -22,5 +22,6 @@
   "bugs": {
     "url": "https://github.com/stevekinney/trance-leg/issues"
   },
-  "homepage": "https://github.com/stevekinney/trance-leg#readme"
+  "homepage": "https://github.com/stevekinney/trance-leg#readme",
+  "engines" : { "node" : ">=0.6 <0.12" }
 }
